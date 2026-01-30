@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ffe6f0, #e6f0ff);
+  padding: 40px;
+}
+
+.cart_inputs {
+  width: 700px;
+  margin: auto;
+  background: white;
+  padding: 30px 40px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.name_input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.cart_input {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+.cart_input label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 6px;
+}
+
+.cart_input input,
+.cart_input select {
+  padding: 9px 11px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  font-size: 14px;
+  background: #f9f9ff;
+}
